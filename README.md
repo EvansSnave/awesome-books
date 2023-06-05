@@ -43,8 +43,8 @@
 ### Key Features <a name="key-features"></a>
 
 - Add README file
-- Add linters to repository
-
+- GitHub Flow
+- 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
