@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Awesome Books</b></h3>
+  <h3><b>📚 Awesome Books 📚</b></h3>
 
 </div>
 
@@ -30,18 +30,13 @@
 
 # 📖 Awesome Books <a name="about-project"></a>
 
-> This project is about building a basic website that allows users to add/remove books from a list, using JavaScript objects and arrays elements.
+> This project is about building a basic website that allows users to add/remove books from a list.
 
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
 - CSS
 - Javascript
-
-### Tech Stack <a name="tech-stack"></a>
-
-- GitHub
-- A.I.
 
 <!-- Features -->
 
