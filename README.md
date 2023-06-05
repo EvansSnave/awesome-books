@@ -42,9 +42,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add linters to repository
-- Use of GitFlow
 - Add README file
+- Add linters to repository
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
