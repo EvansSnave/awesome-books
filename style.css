@@ -38,7 +38,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0.7vw 1.7vw;
+  margin: 0.7vw 0.3vw;
+}
+
+.book-entry:nth-child(even) {
+  background-color: #e6e3e3; /* gris claro */
+}
+
+.book-entry:nth-child(odd) {
+  background-color: #fff; /* blanco */
 }
 
 .remove-button {
