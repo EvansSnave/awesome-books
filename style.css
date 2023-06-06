@@ -1,1 +1,9 @@
-/* stylelint-disable-next-line no-empty-source */
+.book-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button {
+  margin-left: auto;
+}
