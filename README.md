@@ -42,9 +42,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Add linters to repository
-- Use of GitFlow
 - Add README file
+- Use of Gitflow
+-  Add linters to repository
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,7 +106,7 @@ To run the project, execute the following command: open index.html as normal fil
 👤 **Rudi Carrillo**
 
 - GitHub: [Rudi Carrillo](https://github.com/rudicarrilloypr)
-- Twitter: [Argo](https://twitter.com/onlyargo
+- Twitter: [Argo](https://twitter.com/onlyargo)
 - LinkedIn: [Rudi Carrillo](https://www.linkedin.com/in/rudi-carrillo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
