@@ -15,14 +15,18 @@
     <title>Awesome Books by Rudi & Kevin</title>
   </head>
     <body>
-        <h1>Awesome Books</h1>
-        <div id="bookCollection"></div>
-
-        <h2>Add a Book</h2>
-        <label>Title: <input type="text" id="newBookTitle"></label><br>
-        <label>Author: <input type="text" id="newBookAuthor"></label><br>
-        <button id="addButton">Add</button>
-        
+      <main>
+        <h1 class="titleSection">Awesome Books</h1>
+        <section class="container">
+          <div id="bookCollection"></div>
+          <div class="search">
+            <div class="titleContainer"><h2 class="titleMain">Add a new book</h2></div>
+            <div class="labelContainer"><label>Title: <input type="text" id="newBookTitle" placeholder="Title"></label><br></div>
+            <div class="labelContainer"><label>Author: <input type="text" id="newBookAuthor" placeholder="Author"></label><br></div>
+            <div class="btn"><button id="addButton">Add</button></div>
+          </div>
+        </section> 
+      </main>    
         <script src="main.js"></script>
     </body>
 </html>
