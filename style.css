@@ -141,6 +141,20 @@ button {
 
 .lists > * {
   margin: 0 1vw;
+  position: relative;
+}
+
+.lists > *::after {
+  content: "";
+  position: absolute;
+  right: -1vw;
+  top: 25%;
+  height: 50%;
+  border-right: 0.3vw solid black;
+}
+
+.lists > *:last-child::after {
+  border-right: none;
 }
 
 header {
@@ -155,4 +169,12 @@ footer {
   align-items: center;
   border: black solid 0.5vw;
   padding: 0 1vw;
+}
+
+.lists a:hover {
+  color: rgb(36, 94, 180);
+}
+
+.lists a.active {
+  color: rgb(36, 94, 180);
 }
