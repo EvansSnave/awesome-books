@@ -13,27 +13,29 @@ class BookCollection {
 
   displayBooks() {
     const bookCollection = document.getElementById('bookCollection');
-    bookCollection.innerHTML = '';
+    if (bookCollection) {
+      bookCollection.innerHTML = '';
 
-    this.books.forEach((book, index) => {
-      const bookDiv = document.createElement('div');
-      bookDiv.classList.add('book-entry');
+      this.books.forEach((book, index) => {
+        const bookDiv = document.createElement('div');
+        bookDiv.classList.add('book-entry');
 
-      const titlePara = document.createElement('p');
-      titlePara.textContent = `${book.title} by ${book.author}`;
-      bookDiv.appendChild(titlePara);
+        const titlePara = document.createElement('p');
+        titlePara.textContent = `${book.title} by ${book.author}`;
+        bookDiv.appendChild(titlePara);
 
-      const removeButton = document.createElement('button');
-      removeButton.textContent = 'Remove';
-      removeButton.classList.add('remove-button');
-      removeButton.addEventListener('click', () => {
-        this.removeBook(index);
+        const removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.classList.add('remove-button');
+        removeButton.addEventListener('click', () => {
+          this.removeBook(index);
+        });
+
+        bookDiv.appendChild(removeButton);
+
+        bookCollection.appendChild(bookDiv);
       });
-
-      bookDiv.appendChild(removeButton);
-
-      bookCollection.appendChild(bookDiv);
-    });
+    }
   }
 
   addBook(title, author) {
@@ -51,12 +53,33 @@ class BookCollection {
 
 const myBookCollection = new BookCollection();
 
-document.getElementById('addButton').addEventListener('click', () => {
-  const newBookTitle = document.getElementById('newBookTitle');
-  const newBookAuthor = document.getElementById('newBookAuthor');
-  myBookCollection.addBook(newBookTitle.value, newBookAuthor.value);
-  newBookTitle.value = '';
-  newBookAuthor.value = '';
-});
+// Get current pathname
+const pathName = window.location.pathname;
 
-myBookCollection.displayBooks();
+switch (pathName) {
+  case '/addbook.html':
+    // eslint-disable-next-line no-case-declarations
+    const addButton = document.getElementById('addButton');
+    if (addButton) {
+      addButton.addEventListener('click', () => {
+        const newBookTitle = document.getElementById('newBookTitle');
+        const newBookAuthor = document.getElementById('newBookAuthor');
+        myBookCollection.addBook(newBookTitle.value, newBookAuthor.value);
+        newBookTitle.value = '';
+        newBookAuthor.value = '';
+      });
+    }
+    break;
+  case '/main.html':
+    myBookCollection.displayBooks();
+    break;
+  default:
+    // do nothing
+}
+
+const navLinks = document.querySelectorAll('.navbar a');
+navLinks.forEach((link) => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
