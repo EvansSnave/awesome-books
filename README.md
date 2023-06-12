@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>My first capstone project</b></h3>
+  <h3><b>📚 Awesome Books 📚</b></h3>
 
 </div>
 
@@ -13,14 +13,13 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  <!---- [🚀 Live Demo](#live-demo)----->
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -28,42 +27,32 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 My capstone project <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"></a>
 
-> My project is about making a portfolio for mobile version
+> This project is about building a basic website that allows users to add/remove books from a list.
 
-
-**My capstone project** is about introducing myself using a webpage
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Built with html and css and javaScript.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://www.learn-html.org/">HTML</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
+- HTML
+- CSS
+- Javascript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **adding menu bar**
+- Add README file
+- Use of Gitflow
+-  Add linters to repository
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!------## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://evanssnave.github.io/capstone-project/)
+- [Live Demo Link](https:// #) 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>--->
 
 
 <!-- GETTING STARTED -->
@@ -85,7 +74,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/ahmedeid6842/Portfolio.git
+  git clone https://github.com/EvansSnave/awesome-books
 ```
 
 
@@ -107,21 +96,20 @@ To run the project, execute the following command: open index.html as normal fil
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **EvanSnave**
 
 - GitHub: [EvansSnave](https://github.com/EvansSnave)
 - Twitter: [Kroja13](https://twitter.com/Kroja13)
 - LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+👤 **Rudi Carrillo**
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **[make the website more interative]**
+- GitHub: [Rudi Carrillo](https://github.com/rudicarrilloypr)
+- Twitter: [Argo](https://twitter.com/onlyargo)
+- LinkedIn: [Rudi Carrillo](https://www.linkedin.com/in/rudi-carrillo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- CONTRIBUTING -->
 
@@ -142,12 +130,11 @@ If you like this project, please give it a star ⭐️
 
 ## 📖 Acknowledgements <a name="acknowledgements"></a>
 I would like to appreciate <a href="https://www.microverse.org/">Microverse</a> for providing the resources and the platform for us to be a Professional full-stack developer.
-I also aknowledge to Cindy Shin who is the author of the original design https://www.behance.net/adagio07
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
